@@ -1,0 +1,90 @@
+.search_area ,table_area{
+    text-align: center;
+    font-size: 25px;
+}
+.search_area input{
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+#table_content , #insert_content ,#delete_content ,#modify_name_content ,#modify_prise_content , #showAllOrders{
+    text-align:right;
+    border-collapse: collapse; 
+    width:98%;
+    margin:0 1%;
+    display: inline-block;
+     
+}
+#table_content th  {
+    text-align:center ;
+    padding:20px;
+    width: 14%;
+    font-size: 17px;
+    border-radius: 20px;
+    word-break: break-all;
+    
+}
+#table_content th {
+    background-color: #5F9EA0;
+    color:white;
+    text-align: center;
+}
+ #table_content td  {
+    text-align:center ;
+    padding:4px;
+    width: 14%;
+    font-size: 17px;
+    word-break: break-all;
+}
+#table_content tr:nth-child(even){
+    background-color: #CCC
+}
+#showAllOrders th {
+    background-color: #5F9EA0;
+    color:white;
+    text-align: center;
+}
+ #showAllOrders td  {
+    text-align:center ;
+    padding:4px;
+    width: 14%;
+    font-size: 17px;
+    word-break: break-all;
+}
+#showAllOrders tr:nth-child(even){
+    background-color: #CCC
+}
+
+#insert_content form , #delete_content form , #modify_name_content form ,#modify_prise_content form {
+    direction: ltr;
+    text-align: center;
+    
+}
+#insert_content form input , #delete_content form input , #modify_name_content form input , #modify_prise_content form input{
+    line-height: 50px;
+    border-radius: 10px;
+    width: 78%;
+}
+#insert_content form select{
+    height: 50px;
+    border-radius: 10px;
+    width: 78%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 21px;
+}
+.ctrl_panel {
+    width: 100%;
+    display: block;
+}
+.ctrl_panel input {
+    width: 12%;
+    margin-left: 1%;
+    display: inline-block;
+    line-height: 43px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 13px;
+}

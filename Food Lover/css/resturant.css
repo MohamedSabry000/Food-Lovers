@@ -1,0 +1,192 @@
+* { margin:0; padding:0; }
+
+::-moz-selection {
+    background-color: #333;
+    color: #FFF;
+    text-shadow: 0 0 2px rgba(255,255,255,0.3);
+}
+::selection {
+    background-color: #333;
+    color: #FFF;
+    text-shadow: 0 0 2px rgba(255,255,255,0.3);
+}
+	
+body { background-color:rgb(240,240,240); }
+
+.container { margin:auto; width:90%; }
+
+i{ padding-right:5px; }
+
+/*===================================================================================Start Header*/
+.header
+{
+	
+	background-image:url('../images/cover.png');
+	background-size:cover;
+	text-transform:capitalize;
+}
+.header:hover
+{
+	opacity: 0.9;
+	transition: all 0.3s ease-in-out;
+}
+
+.pageTitle{
+	margin: 0;
+    margin-left: 5%;
+    width: 20%;
+    display: inline-block;
+    color: #FFF;
+    position: absolute;
+    margin-top: 1.5%;
+	font-family: 'Indie Flower', cursive;
+}
+.pageTitle span{
+	color: #AA112F;
+}
+
+
+.headertop {
+	padding :10px;
+	overflow:hidden;
+	width: 42%;
+	float:right;
+	}
+
+.headertop ul
+{
+	font-size: 20px;
+	list-style-type:none;
+	color:#fff;
+	text-align: center;
+}
+.headertop ul li {
+	display:inline-block;
+	padding:10px;
+	border-radius: 10px;
+	}
+.headertop ul li:hover {
+	background: linear-gradient(to right, #203482, #2a49bf, #3354d0, #203482);
+    box-shadow: 0px 9px 20px 4px rgba(255, 255, 255, 0.27);
+	color:#FFF;
+	cursor:pointer;
+	transition: all 0.5s ease-in-out;
+	transform: translateY(4px);
+	}
+
+.headercenter
+{
+	color:#fff;
+	text-align:center;
+	font-family:tahoma;
+	padding:80px;
+	padding-top: 139px;
+}
+
+.headercenter p:last-of-type { font-weight:bolder; font-size:200%; } 
+
+.headerbottom { color:white; background-color:rgba(0,0,0,.5); }
+
+.headerbottom ul { text-align:center; list-style-type:none; }
+
+.headerbottom ul li 
+{
+	display:inline-block; 
+	text-align:center;  
+	width:33%;	
+	padding:10px 0 ; 	
+}
+.headerbottom ul li:nth-of-type(1):after , .headerbottom ul li:nth-of-type(2):after{
+	float: right;
+	content: "|";
+}
+
+/*======================================================================================Start Content*/
+.content  { overflow:hidden; margin:20px; text-transform:capitalize;}
+
+.content .categories , 
+.content .ourproducts ,
+.content .yourorder 
+{
+	float:left;
+	background-color:rgb(255,255,255);
+	margin-right:2%
+}
+
+.content .categories h3, 
+.content .ourproducts h3,
+.content .yourorder h3 
+{
+	background-color:#000;
+	color:#fff;
+	background-color:rgb(60,60,60);
+	padding:5px;
+}
+
+.content .categories h3, .content .yourorder h3 { background-color:rgb(200,200,200); color:rgb(60,60,60); }
+
+.content .categories , .content .yourorder { width:23%; }
+
+.content .categories ul { list-style :none; padding:15px;}
+
+.content .categories ul li {padding:4px; font-size:150%; }
+
+.content .categories ul li:hover {padding-left:10px; font-weight:bolder; cursor:pointer; text-shadow: 0 5px 5px rgba(0,0,0,0.5);}
+
+.content .categories ul hr { color:rgba(200,200,200,.3); text-align:center;}
+
+.content .yourorder {margin:0;}
+
+.content .yourorder #order {padding:10px;}
+
+.content .yourorder button 
+{
+	padding:5px;
+	color:#fff; 
+	background-color:rgb(60,60,60); 
+	width:100%;
+	cursor:pointer;
+	text-transform:uppercase;
+}
+.content .yourorder #order tr td ,.content .yourorder #order tr th {
+    width:19%;
+}
+
+.content .ourproducts { width:50%; transition: all 0.5s ease-in-out;}
+
+/*======================================================================================Start Footer*/
+footer
+{
+	color:#fff;
+	bottom:0;
+	width:100%;
+	text-align:center;
+	text-transform:capitalize;
+}
+
+footer .social { background: linear-gradient(#151e27,#1d3144,#0f1418);}
+
+footer ul {padding:10px;}
+
+footer ul li { display:inline; padding:20px; }
+
+footer ul li a{ text-decoration :none; color:#fff;}
+
+
+footer ul li:nth-of-type(1) a:hover {color:#465993; transition:all .5s linear;}
+footer ul li:nth-of-type(2) a:hover {color:#76a9ea; transition:all .5s linear;}
+footer ul li:nth-of-type(3) a:hover {color:#9c131d; transition:all .5s linear;}
+footer ul li:nth-of-type(4) a:hover {color:#0078b7; transition:all .5s linear;}
+footer ul li:nth-of-type(5) a:hover {color:#f51c0d; transition:all .5s linear;}
+
+
+footer .copyright {padding:10px; background-color:#0f1418;} 
+
+footer .copyright p span{font-family: 'Indie Flower', cursive; font-size:150%;} 
+
+#order td{
+    text-align: center;
+}
+
+
+

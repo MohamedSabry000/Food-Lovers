@@ -1,0 +1,54 @@
+
+.content  { overflow:hidden; margin:20px;}
+
+.content .form { width:75%; margin-right:2%; background-color:#fff; float:left; padding-bottom:20px; border-radius: 20px; }
+
+.content .form h3 {
+	background-color:#3c3c3c;
+	color:#fff;
+	padding:4px;
+	text-align: center;
+	border-radius: 20px;
+	line-height: 50px;
+	font-size: 30px;
+	text-shadow: 0 5px 3px rgba(0,0,0,0.5);
+	}
+
+.content .form .body { padding:10px; padding-top:20px; }
+
+.content .form .body .contact{overflow:hidden; margin-bottom:40px; margin-top: 10px; }
+
+.content .form .body .contact input{ padding:5px; width:45%; margin:1%;border-radius: 5px; line-height: 30px; font-size: 15px;}
+
+.content .form .body .contact input:nth-of-type(2){ margin-left:2%;}
+
+.content .form .body .contact input:nth-of-type(4){ margin-left:2%;}
+
+#save_data{
+	line-height: 40px;
+	width: 110px;
+	background-color: #CCC;
+	font-size: 25px;
+	border-radius: 10px;
+	float: left;
+	margin-left: 3%;
+}
+.form .body #back_to_posts{
+	line-height: 40px;
+	width: 110px;
+	background-color: #CCC;
+	font-size: 25px;
+	border-radius: 10px;
+	float: right;
+	margin-right: 3%;
+}
+#save_data:hover , #back_to_posts:hover{
+	background: linear-gradient(to right, #203482, #2a49bf, #3354d0, #203482);
+    box-shadow: 0px 9px 20px 4px rgba(0, 0, 0, 0.77);
+	border-radius: 10px;
+	cursor: pointer;
+}
+/******************************************************************************************************************/
+.content .yourorder { width:23%; background-color:#fff; float:left; }
+
+.content .yourorder h3 { background-color:#ebebeb; padding:4px; }
